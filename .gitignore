@@ -1,0 +1,18 @@
+# Ignore Vivado generated files and directories
+*.jou
+*.log
+*.str
+*.dmp
+*.pb
+*.wdb
+*.dir/
+.Xil/
+*/[Ss]ynth*/
+*/[Ii]mpl*/
+*/[Ss]im*/
+*.hw/
+*.ip_user_files/
+*.cache/
+*.sim/
+*.runs/
+
