@@ -4,7 +4,7 @@
 This project is a 32-bit pipelined RISC-V CPU implemented in Verilog via Vivado. Featuring a four-stage pipeline, custom ALU, and control units, it supports R, I, S, B, U, and J-type instructions. It includes hazard management and custom testbenches for streamlined simulation and hardware verification. 
 
 ## Features
-* **Pipelined Architecture:** Utilizes a four-stage pipeline layout with dedicated hardware registers (IF/ID, ID/EX, EX/MEM, MEM/WB) to maximize instruction throughput.
+* **Pipelined Architecture:** Utilizes a pipeline layout with dedicated hardware registers (IF/ID, ID/EX, EX/MEM, MEM/WB) to maximize instruction throughput.
 * **Custom Hardware Modules:** Built from scratch with dedicated functional units, including an Arithmetic Logic Unit (ALU), Control Unit, Register File, and Memory/Program Counter (PC) units.
 * **Instruction Set Architecture:** Supports fundamental RISC-V instructions across multiple formats:
   * **R-type:** `ADD`, `SUB`, `AND`, `OR`, `XOR`
